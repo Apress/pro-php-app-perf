@@ -1,0 +1,16 @@
+<?php
+$max = 10000;
+$x = 0;
+$array = array();
+
+while($x < $max)
+{
+   $array[$x] = $x;
+   $x++;
+}
+
+foreach($array as $z)
+{
+   echo "$z<br/>";
+}
+
